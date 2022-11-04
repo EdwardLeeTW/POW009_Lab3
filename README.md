@@ -20,11 +20,6 @@ The hand-on example code for RTC POW009-Lab2 is used to measure plant bode plot 
 - Closed-loop contorl using PowerSmart-DCLD
 
 ## Version Description
-- v2.0 (Nov 4, 2022)
-  - Disable HW-CTXT for AN22-ISR on MCC
-  - Enable SW-CTXT on PowerSmartTM
-  - LED2 as AND22-ISR indicator
-  - DAC1 as output of digital compensator
 - v1.0 (Nov 3, 2022)
 
 - - -
