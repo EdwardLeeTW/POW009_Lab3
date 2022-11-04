@@ -15,8 +15,8 @@ Part Number: APP-POWERRTC1
 
 ## Summary
 
-The hand-on example code for RTC POW009-Lab2 is used to measure plant bode plot with Kp (P-term) contorl.
-- Codebase: POW009-Lab3 v1.0
+The hand-on example code for RTC POW009-Lab3 is used to show closed-loop control with Powersmart.
+- Codebase: POW009-Lab2 v1.0
 - Closed-loop contorl using PowerSmart-DCLD
 
 ## Version Description
