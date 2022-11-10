@@ -10,7 +10,7 @@ Part Number: DM330030
 ## Microchip APP-POWERRTC1 EVM
 Part Number: APP-POWERRTC1
 
-![image](https://a.rimg.com.tw/s1/6/a1/07/22025696299271_191.jpg) 
+![image](https://user-images.githubusercontent.com/61537309/200980318-c3fbc098-1c32-4bc4-babe-411a8242549f.png)
 - - -
 
 ## Summary
@@ -49,7 +49,7 @@ Alternative Controller Plug-In Module:
 
 ## Hardware Used
 
-- DSPIC33CK CURIOSITY DEVELOPMENT BOARD, Part-No. [DM330030](https://www.microchip.com/en-us/development-tool/DM330030)
+- dsPIC33CK CURIOSITY DEVELOPMENT BOARD, Part-No. [DM330030](https://www.microchip.com/en-us/development-tool/DM330030)
 - Microchip APP-POWERRTC1 EVM, Part-No. [APP-POWERRTC1](https://shopee.tw/%E3%80%90ICBOX%E3%80%91Microchip-APP-POWERRTC1-%E5%AF%A6%E9%A9%97%E6%9D%BF-0300801566001-i.219280202.7044587367)
 
 ## Supported Target Devices
