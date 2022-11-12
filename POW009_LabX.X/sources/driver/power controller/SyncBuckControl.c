@@ -100,12 +100,13 @@ volatile uint16_t VCOMP_ControlObject_Initialize(void)
 void __attribute__((__interrupt__, no_auto_psv, context)) _ADCAN22Interrupt(void)
 {
 
-    VCOMP_Update(&VCOMP);                               // Call control loop
-    //VCOMP_PTermUpdate(&VCOMP);                        // Call P-Term control loop
+    VCOMP_Update(&VCOMP);                             // Call control loop
+    //VCOMP_PTermUpdate(&VCOMP);                          // Call P-Term control loop
 
     IFS7bits.ADCAN22IF = 0;                             // Clear the interrupt flag
 
 }
+
 
 //**********************************************************************************
 // Download latest version of this tool here:

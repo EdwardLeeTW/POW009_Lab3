@@ -16,7 +16,7 @@
  * CGS Date:            01/06/2022
  * *********************************************************************************
  * User:                edwardlee
- * Date/Time:           11/03/2022 17:50:38
+ * Date/Time:           11/12/2022 23:09:20
  * ********************************************************************************/
 
 #include "VCOMP.h"
@@ -50,7 +50,7 @@ volatile uint16_t VCOMP_ErrorHistory_size = (sizeof(VCOMP_histories.ErrorHistory
  * Pole&Zero Placement:
  * *********************************************************************************
  *
- *    fP0:    1400 Hz
+ *    fP0:    1366 Hz
  *    fP1:    6000 Hz
  *    fP2:    175000 Hz
  *    fZ1:    1860 Hz
@@ -69,10 +69,10 @@ volatile int32_t VCOMP_ACoefficients [3] =
 
 volatile int32_t VCOMP_BCoefficients [4] =
 {
-    0x5545FFFE, // Coefficient B0 will be multiplied with error input e(n-0)
-    0xB286FFFE, // Coefficient B1 will be multiplied with error input e(n-1)
-    0xAAE9FFFE, // Coefficient B2 will be multiplied with error input e(n-2)
-    0x4DA9FFFE  // Coefficient B3 will be multiplied with error input e(n-3)
+    0x5333FFFE, // Coefficient B0 will be multiplied with error input e(n-0)
+    0xB468FFFE, // Coefficient B1 will be multiplied with error input e(n-1)
+    0xACFAFFFE, // Coefficient B2 will be multiplied with error input e(n-2)
+    0x4BC6FFFE  // Coefficient B3 will be multiplied with error input e(n-3)
 };
 
 // Coefficient normalization factors
@@ -82,7 +82,7 @@ volatile int16_t VCOMP_post_shift_B = 0;          // Bit-shift value B used to p
 volatile fractional VCOMP_post_scaler = 0x0000;   // Q15 fractional factor used to perform control output value backward normalization
 
 // P-Term Coefficient for Plant Measurements
-volatile int16_t VCOMP_pterm_factor = 0x70A7;     // Q15 fractional of the P-Term factor
+volatile int16_t VCOMP_pterm_factor = 0x709C;     // Q15 fractional of the P-Term factor
 volatile int16_t VCOMP_pterm_scaler = 0xFFFF;     // Bit-shift scaler of the P-Term factor
 
 

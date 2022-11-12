@@ -50,3 +50,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+POW009_LabX.X/.DS_Store
+POW009_LabX.X/sources/.DS_Store
+POW009_LabX.X/sources/driver/.DS_Store
