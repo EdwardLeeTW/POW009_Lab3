@@ -20,7 +20,7 @@ The hand-on example code for RTC POW009-Lab3 is used to show closed-loop control
 - Closed-loop contorl using PowerSmart-DCLD
 
 ## Version Description
-- v1.0 (Nov 3, 2022)
+- v1.0 (Nov 13, 2022)
 
 - - -
 
